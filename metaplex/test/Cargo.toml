@@ -19,8 +19,8 @@ serde_json = "1.0"
 serde_derive = "1.0"
 serde = { version = "1.0.100", default-features = false }
 clap = "2.33.3"
-solana-clap-utils = { git = "https://github.com/omertxyz/solana.git", rev = "0da726b10057897deea09e849097c6076c04443d" }
-solana-cli-config = { git = "https://github.com/omertxyz/solana.git", rev = "0da726b10057897deea09e849097c6076c04443d" }
+solana-clap-utils = { git = "https://github.com/omertxyz/solana.git", rev = "03a3b241622b6248bb245c29baef538a88f04c0b" }
+solana-cli-config = { git = "https://github.com/omertxyz/solana.git", rev = "03a3b241622b6248bb245c29baef538a88f04c0b" }
 metaplex-auction = { path = "../../auction/program", features = [ "no-entrypoint" ] }
 metaplex-token-metadata = { path = "../../token-metadata/program", features = [ "no-entrypoint" ] }
 metaplex-token-vault = { path = "../../token-vault/program", features = [ "no-entrypoint" ] }
